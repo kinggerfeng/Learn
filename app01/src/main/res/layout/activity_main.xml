@@ -8,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:app="http://schemas.android.com/apk/res-auto"
             xmlns:tools="http://schemas.android.com/tools/isupdated"
             android:id="@+id/layout_wrap"
@@ -20,7 +20,7 @@
             <ImageView
                 android:id="@+id/img1"
                 android:layout_width="match_parent"
-                android:layout_height="210dp"
+                android:layout_height="300dp"
                 android:layout_gravity="top"
                 android:scaleType="centerCrop"
                 android:src="@mipmap/img1"
@@ -32,7 +32,7 @@
             <ImageView
                 android:id="@+id/sp"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="300dp"
                 android:text="hello"
                 android:src="@mipmap/img3"
                 android:scaleType="centerCrop"
@@ -45,14 +45,14 @@
             <ImageView
                 android:id="@+id/img2"
                 android:layout_width="match_parent"
-                android:layout_height="800dp"
+                android:layout_height="300dp"
                 android:layout_gravity="top"
                 android:scaleType="centerCrop"
                 android:src="@mipmap/img3"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent" />
-        </android.support.constraint.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 
 
